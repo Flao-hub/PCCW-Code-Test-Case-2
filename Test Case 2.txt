@@ -24,7 +24,7 @@ try:
 
     # Step 3: Wait for the error message to be displayed
     WebDriverWait(driver, 10).until(
-        EC.visibility_of_element_located((By.ID, "error"))  # Adjust based on actual error message element ID
+        EC.visibility_of_element_located((By.ID, "error"))  
     )
 
     # Verify error message is displayed
